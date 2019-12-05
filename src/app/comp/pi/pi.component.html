@@ -1,0 +1,63 @@
+<p>pi works!</p>
+<form>
+
+<!-- <input (input)="sumuel=$input.target.value"> -->
+<div>1: capital = "ariel" => "Ariel"</div><br>
+<input [formControl]="p1"><p>1={{p1.value|pips1}}</p>
+
+<div>2. toIsraeliDate = new Date() => "27.11.19"</div><br>
+<p>2={{date|pips2}}</p>
+
+
+<div>3. allCapital = "ariel" => "ARIEL"</div><br>
+<input [formControl]="p3"> <p>3={{p3.value|pips3}}</p>
+
+<div>4. unCapital = "Ariel" => "ariel"</div><br>
+<input [formControl]="p4"> <p>4={{p4.value|pips4}}</p>
+
+<div>5. unCapitalAll = "ARIEL" => "ariel"</div><br>
+<input [formControl]="p5"> <p>5={{p5.value|pips5}}</p>
+
+<div>6. sayHello = "ariel" => "Hello ariel"</div><br>
+<input [formControl]="p6"> <p>6={{p6.value|pips6}}</p>
+
+<div>7. incr = 4 => 5</div><br>
+<input [formControl]="p7"> <p>7={{p7.value|pips7}}</p>
+
+<div>8. decr = 9 => 8</div><br>
+<input [formControl]="p8"> <p>8={{p8.value|pips8}}</p>
+
+<div>9. topTen => ["eli", "shuki" .... 15 names] => [...only 10]</div><br>
+<input [formControl]="p9"><p >9={{p9.value|pips9:p9arr}}</p>
+
+<div>10. filter => ["eli", .... 15 names]:"term" => [...only includes "term"]</div><br>
+<input [formControl]="p10"> <p >10={{p10.value|pips10:p9arr}}</p>
+
+<div>11. maxVal => [5,8,13,3,2] => 13</div><br>
+<p >11={{numarr|pips11}}</p>
+
+<div>12. minVal => [5,8,13,3,2] => 2</div><br>
+<p >12={{numarr|pips12}}</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</form>
+
+
+
